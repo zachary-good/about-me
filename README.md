@@ -1,11 +1,6 @@
-LAB - Number
-Project Name
-I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+Lab 02
+About Me
+This is the project for my second lab. it is an about me website that will informan any visitors with some of the details about my life and who I am. I hope you enjoy the site and if you have any recommendations for improvements please let me know!
 
-Author: Student/Group Name
-Links and Resources
-submission PR
-Any Links you used as reference
-Reflections and Comments
-Consider including the answers to your daily journal and submission questions here
-This is also a good place to reflect on the tools and resources used and learned
+Author: Zachary Good
+I used the notes and Video recordings from lectures as well as the document set up page from Code Fellows
