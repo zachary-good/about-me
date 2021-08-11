@@ -13,6 +13,9 @@ let answer1Lower = answer1.toLowerCase();
 if(answer1Lower === 'yes' || answer1Lower === 'y'){
   alert('Thats correct Zack loves ice cream!');
   }
+  else if(answer1Lower === 'no' || answer1Lower === 'n'){
+    alert('You are wrong')
+  }
   else{
     alert('Come on you should know better! Everyone loves ice cream!');
 }
@@ -23,7 +26,10 @@ let answer2Lower = answer2.toLowerCase();
 
 if(answer2Lower === 'no' || answer2Lower === 'n'){
   alert('Thats correct Zack hates sitting inside all day!');
- }
+  }
+ else if(answer2Lower === 'no' || answer2Lower === 'n'){
+  alert('You are wrong')
+  }
   else{
     alert('Come on you should know better! Everyone loves the great outdoors!');
 } 
@@ -35,6 +41,9 @@ let answer3Lower = answer3.toLowerCase();
 if(answer3Lower === 'yes' || answer3Lower === 'y'){
   alert('Thats correct Zack loves long walks on the beach!');
  }
+ else if(answer3Lower === 'no' || answer3Lower === 'n'){
+  alert('You are wrong')
+  }
   else{
     alert('Come on you should know better! Everyone loves the sand between their toes!');
 }
@@ -45,7 +54,9 @@ let answer4Lower = answer4.toLowerCase();
 
 if(answer4Lower === 'no' || answer4Lower === 'n'){
   alert('Thats correct Zack does not like getting stung! Come no now who does?');
- }
+ }else if(answer4Lower === 'no' || answer4Lower === 'n'){
+  alert('You are wrong')
+  }
   else{
     alert('Come on you should know better! No one likes bee stings!');
 } 
@@ -57,6 +68,9 @@ let answer5Lower = answer5.toLowerCase();
 if(answer5Lower === 'yes' || answer5Lower === 'y'){
   alert('Thats correct Zack is very much looking forward to all he is going to learn!');
  }
+ else if(answer5Lower === 'no' || answer5Lower === 'n'){
+  alert('You are wrong')
+  }
   else{
     alert('Come on you should know better! Everyone loves learning!');
 }
