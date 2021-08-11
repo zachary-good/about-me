@@ -27,7 +27,7 @@ let answer2Lower = answer2.toLowerCase();
 if(answer2Lower === 'no' || answer2Lower === 'n'){
   alert('Thats correct Zack hates sitting inside all day!');
   }
- else if(answer2Lower === 'no' || answer2Lower === 'n'){
+ else if(answer2Lower === 'yes' || answer2Lower === 'y'){
   alert('You are wrong')
   }
   else{
@@ -54,7 +54,7 @@ let answer4Lower = answer4.toLowerCase();
 
 if(answer4Lower === 'no' || answer4Lower === 'n'){
   alert('Thats correct Zack does not like getting stung! Come no now who does?');
- }else if(answer4Lower === 'no' || answer4Lower === 'n'){
+ }else if(answer4Lower === 'yes' || answer4Lower === 'y'){
   alert('You are wrong')
   }
   else{
