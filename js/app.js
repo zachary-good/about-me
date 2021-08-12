@@ -10,6 +10,7 @@ let answer1= prompt('Do you think Zack likes ice cream ' + userName + '?');
 console.log(answer1);
 let answer1Lower = answer1.toLowerCase();
 
+function question1(answer1Lower){
 if(answer1Lower === 'yes' || answer1Lower === 'y'){
   alert('Thats correct Zack loves ice cream!');
   userScore++;
@@ -19,12 +20,15 @@ if(answer1Lower === 'yes' || answer1Lower === 'y'){
   }
   else{
     alert('Come on you should know better! Everyone loves ice cream!');
+  }
 }
+question1(answer1Lower);
 
 let answer2 = prompt('Do you think Zack likes sitting inside all day ' + userName + '?');
 console.log(answer2);
 let answer2Lower = answer2.toLowerCase();
 
+function question2(answer2Lower){
 if(answer2Lower === 'no' || answer2Lower === 'n'){
   alert('Thats correct Zack hates sitting inside all day!');
   userScore++;
@@ -34,12 +38,15 @@ if(answer2Lower === 'no' || answer2Lower === 'n'){
   }
   else{
     alert('Come on you should know better! Everyone loves the great outdoors!');
-} 
+  }
+}
+question2(answer2Lower); 
 
 let answer3= prompt('Do you think Zack likes long walks on the beach ' + userName + '?');
 console.log(answer3);
 let answer3Lower = answer3.toLowerCase();
 
+function question3(answer3Lower){
 if(answer3Lower === 'yes' || answer3Lower === 'y'){
   alert('Thats correct Zack loves long walks on the beach!');
   userScore++;
@@ -49,12 +56,15 @@ if(answer3Lower === 'yes' || answer3Lower === 'y'){
   }
   else{
     alert('Come on you should know better! Everyone loves the sand between their toes!');
+  }
 }
+question3(answer3Lower);
 
 let answer4 = prompt('Do you think Zack likes getting stung by bees ' + userName + '?');
 console.log(answer4);
 let answer4Lower = answer4.toLowerCase();
 
+function question4(answer4Lower){
 if(answer4Lower === 'no' || answer4Lower === 'n'){
   alert('Thats correct Zack does not like getting stung! Come no now who does?');
   userScore++;
@@ -64,12 +74,15 @@ if(answer4Lower === 'no' || answer4Lower === 'n'){
   }
   else{
     alert('Come on you should know better! No one likes bee stings!');
+  }
 } 
+question4(answer4Lower);
 
 let answer5= prompt('Do you think Zack is looking forward to his time with the Code Fellows ' + userName + '?');
 console.log(answer5);
 let answer5Lower = answer5.toLowerCase();
 
+function question5(answer5Lower){
 if(answer5Lower === 'yes' || answer5Lower === 'y'){
   alert('Thats correct Zack is very much looking forward to all he is going to learn!');
   userScore++;
@@ -79,12 +92,14 @@ if(answer5Lower === 'yes' || answer5Lower === 'y'){
   }
   else{
     alert('Come on you should know better! Everyone loves learning!');
+  }
 }
+question5(answer5Lower);
 
 var number = 5;
 var answer = false;
 
-
+function question6(){
 for(var i = 0; i < 4; i++){
   var numGuess = prompt('Please guess a number between 1 and 20!');
   console.log(numGuess);
@@ -111,11 +126,14 @@ for(var i = 0; i < 4; i++){
 if(answer == false){
 alert('sorry you did not get the answer, it was five.')
 }
+}
+question6();
 
 const favFoods = ["pizza", "hamburger", "ice cream"];
 console.log(favFoods);
 var foodAns = false;
 
+function question7(favFoods, foodAns){
 for(var j = 0; j < 6; j++){
 
   var foodGuess = prompt('What do you think is Zacks favorite food?');
@@ -144,5 +162,8 @@ alert('these are zacks favorite foods:');
 for(var i = 0; i < favFoods.length; i++){
   alert(favFoods[i]);
 }
+}
+
+question7(favFoods, foodAns);
 
 alert(userName + ' thanks for coming to learn more about Zack. Your Zack score was ' + userScore + '/7. feel free to stick around and read as much as you like!');
