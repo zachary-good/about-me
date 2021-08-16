@@ -21,6 +21,7 @@ body{
    background-color: slateblue;
    border-radius: 10px;
    padding: 5px;
+   text-align: right;
  }
  #education{
    margin: 10px auto 10px auto;
@@ -70,10 +71,10 @@ body{
    text-align: center;
  }
  #tenFav{
-  margin: 10px 20px 10px auto;
-  width: 600px;
-  background-color: rosybrown;
-  border-radius: 10px;
+    margin: 10px 20px 10px auto;
+    width: 600px;
+    background-color: rosybrown;
+    border-radius: 10px;
  }
  #mtnList{
    margin: 10px auto 10px 20px;
@@ -84,7 +85,7 @@ body{
  }
  .mountain{
    
-   width: 200px;
-   height: 200px;
+    width: 400px;
+    margin: 10px auto 10px auto;
    
  }
