@@ -1,9 +1,12 @@
 body{
-  background-color: green;
+  background-color: grey;
+  
  }
  h1{
    font-size: 3em;
    text-align: center;
+   margin: 10px;
+   
  }
  h2{
    font-size: 2em;
@@ -11,13 +14,77 @@ body{
  #bioheader{
    text-align: center;
  }
- p{
-   font-family: 'Courier New', Courier, monospace;
+ #bioBody{
+   
+   width: 600px;
+   margin: 10px auto 10px auto;
+   background-color: slateblue;
+   border-radius: 10px;
+   padding: 5px;
+ }
+ #education{
+   margin: 10px auto 10px auto;
+   width: 600px;
+   background-color: coral;
+   border-radius: 10px;
+ }
+ #ed{
    text-align: center;
  }
+ #edList{
+   background-color: cyan;
+   border-radius: 10px;
+   margin: 10px auto 10px 20px;
+   list-style-type: disc;
+ }
+ p{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align: center;
+   
+ }
  ul{
-   font-family: 'Courier New', Courier, monospace;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
  ol{
-   font-family: 'Courier New', Courier, monospace;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+     border-radius: 15px;
+   list-style-type: disc;
+   margin: auto auto auto 20px;
+ }
+ #workExp{
+   
+   width: 500px;
+   background-color: salmon;
+   border-radius: 10px;
+   margin: 10px auto 10px 10px;
+ }
+ #jobs{
+   
+   width: 350px;
+   background-color: seagreen;
+   border-radius: 10px;
+   margin: center;
+   
+ }
+ #work{
+   text-align: center;
+ }
+ #tenFav{
+  margin: 10px 20px 10px auto;
+  width: 600px;
+  background-color: rosybrown;
+  border-radius: 10px;
+ }
+ #mtnList{
+   margin: 10px auto 10px 20px;
+   background-color: royalblue;
+ }
+ #peaks{
+   text-align: center;
+ }
+ .mountain{
+   
+   width: 200px;
+   height: 200px;
+   
  }
